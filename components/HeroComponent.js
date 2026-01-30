@@ -47,8 +47,8 @@ export default function HeroComponent() {
           <div className="hidden lg:flex w-full h-full relative">
             <iframe
               id="bg-video-desktop"
-              fetchPriority="high"
-              loading="eager"
+              loading="lazy"
+              fetchPriority="low"
               className={`w-full h-full pointer-events-none object-cover scale-120 xl:scale-140 transition-opacity duration-700 ${
                 desktopLoaded ? "opacity-100" : "opacity-0"
               }`}

@@ -6,8 +6,6 @@ import SectionHeader from "@/components/SectionHeader";
 import Testimoials from "@/components/Testimoials";
 import CountersSection from "@/components/Counter";
 import Image from "next/image";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 import MentionSection from "@/components/pages/Home/MentionSection";
 import GetInTouch from "@/components/pages/GetInTouch";
 import Link from "next/link";
@@ -15,7 +13,6 @@ import HeroBottomBar from "@/components/HeroBottomBar";
 import AwardSection from "@/components/pages/Home/AwardSection";
 
 
-gsap.registerPlugin(ScrollTrigger);
 export default function Home({
   featuredProjects,
   imagePath,
